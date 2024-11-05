@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-14T10:17:08 IST" name="Default suite" finished-at="2024-10-14T10:17:26 IST" duration-ms="18287">
+    <groups>
+    </groups>
+    <test started-at="2024-10-14T10:17:08 IST" name="Default test" finished-at="2024-10-14T10:17:26 IST" duration-ms="18287">
+      <class name="actiTimeLoginModuleTest.ActiTimetestclass">
+        <test-method is-config="true" signature="startbrwser()[pri:0, instance:actiTimeLoginModuleTest.ActiTimetestclass@7586beff]" started-at="2024-10-14T10:17:08 IST" name="startbrwser" finished-at="2024-10-14T10:17:14 IST" duration-ms="5644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startbrwser -->
+        <test-method is-config="true" signature="EnterCredToLogin()[pri:0, instance:actiTimeLoginModuleTest.ActiTimetestclass@7586beff]" started-at="2024-10-14T10:17:14 IST" name="EnterCredToLogin" finished-at="2024-10-14T10:17:21 IST" duration-ms="6788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterCredToLogin -->
+        <test-method signature="verifyfeaturesitle()[pri:0, instance:actiTimeLoginModuleTest.ActiTimetestclass@7586beff]" started-at="2024-10-14T10:17:21 IST" name="verifyfeaturesitle" finished-at="2024-10-14T10:17:25 IST" duration-ms="4341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyfeaturesitle -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:actiTimeLoginModuleTest.ActiTimetestclass@7586beff]" started-at="2024-10-14T10:17:25 IST" name="CloseBrowser" finished-at="2024-10-14T10:17:26 IST" duration-ms="1391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyfeaturesitle status=SUCCESS method=ActiTimetestclass.verifyfeaturesitle()[pri:0, instance:actiTimeLoginModuleTest.ActiTimetestclass@7586beff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- actiTimeLoginModuleTest.ActiTimetestclass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
