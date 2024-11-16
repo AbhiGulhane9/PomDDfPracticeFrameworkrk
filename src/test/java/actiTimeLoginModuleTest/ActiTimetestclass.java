@@ -37,7 +37,12 @@ public class ActiTimetestclass extends ActiTimeBase
 		public void EnterCredToLogin() throws InterruptedException, EncryptedDocumentException, IOException
 		{
 			
-			login.SetActiTimeUname(ActiTimeUtilityClass.propertyFile("UN"));
+			//login.SetActiTimeUname(ActiTimeUtilityClass.propertyFile("UN"));
+			
+			//using excel file file enter credential 
+			login.SetActiTimeUname(ActiTimeUtilityClass.exceldata(0, 0));
+			
+			//using property file enter credential 
 			login.SetActiTimePass(ActiTimeUtilityClass.propertyFile("Pass"));
 			login.SetActiTimeLoginButton();
 			home.SetActiTimeLogo();
